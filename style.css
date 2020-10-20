@@ -14,7 +14,7 @@ body{
     width: 70px;
     height: 100vh;
     background-color: #45C47B;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .col-md-12{
     width: 100%;
@@ -43,4 +43,3 @@ nav div{
 
 }
 
-@media()

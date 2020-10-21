@@ -11,35 +11,51 @@ body{
 
 
 .col-md-1{
-    width: 70px;
+    width: 60px;
+    min-width: 60px;
     height: 100vh;
     background-color: #45C47B;
-    overflow-y: auto;
+    overflow-y:auto;
 }
 .col-md-12{
     width: 100%;
 }
 nav{
-    width: 70px;
-    display: flex;
+    width: 60px;
+    /* display: flex; */
 
     /* align-content: space-between; */
-    align-items: flex-start;
+    /* align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    /* text-align: center; */
+    
     min-width: 60px;
    
 }
 nav div{
-    margin: 10px 0px;
+    margin: 10px 10px;
+}
+nav img{
+    width: 45px;
+    height: 45px;
 }
 .row{
     display: flex;
     justify-content: space-between;
 }
 
-.row .header{
-    border-bottom: 1px solid teal;
+.header{
+    border-bottom: 1px solid blue;
 
 }
 
+/* [class*="col-"]{
+    padding-left: 5px;
+    padding-right: 5px;
+} */
+ nav img{
+     width: 30px;
+     height: 30px;
+     margin: 5px;
+ }

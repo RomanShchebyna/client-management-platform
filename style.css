@@ -77,8 +77,21 @@ nav img{
  .user_icon{
      padding: 5px;
  }
-
- .searh{
-    /* display: flex; */
-    /* align-items: flex-start; */
+ nav a{
+     display: block;
+     height: 100%;
+     width: 100%;
  }
+
+
+ .user:hover a img{
+     background-color: rgb(114, 129, 114);
+     
+     
+ }
+ /* }
+  .user:hover .user a{
+    background:url('img/Uses_active.png');
+  }  */
+
+

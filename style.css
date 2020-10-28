@@ -89,9 +89,10 @@ nav img{
  }
 
 
- .user:hover a img{
-     background-color: rgb(114, 129, 114);
-     
+ nav div:hover a img{
+     background-color: rgba(252, 127, 10, 0.795);
+     border-radius: 5px;
+    
      
  }
  /* }
